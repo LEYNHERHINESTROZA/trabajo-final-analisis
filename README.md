@@ -39,7 +39,7 @@ trabajo-final-analisis/
 ### Instalación Local
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/TU_USUARIO/trabajo-final-analisis.git
+   git clone https://github.com/LEYNHERHINESTROZA/trabajo-final-analisis.git
    ```
 2. Mueve la carpeta al directorio público de tu servidor web (ej. `C:/xampp/htdocs/`).
 3. (Opcional) Ejecuta manualmente el archivo python para asegurar la creación del JSON inicial:
@@ -62,15 +62,15 @@ trabajo-final-analisis/
 
 ---
 
-## 📄 Licencia
-Proyecto formativo creado para el curso de Análisis de Datos. Todos los derechos reservados.
-
----
-
-## ????? Autor
+## 👨‍💻 Autor
 
 **Leynher Ferney Hinestroza Mosquera**
 *Desarrollador Fullstack & Analista de Datos*
-- ?? [LinkedIn](https://linkedin.com) (En construcci�n)
-- ?? [GitHub](https://github.com/LEYNHERHINESTROZA)
-- ?? Email: leynercrs@gmail.com
+- 💼 [LinkedIn](https://linkedin.com) (En construcción)
+- 🐙 [GitHub](https://github.com/LEYNHERHINESTROZA)
+- 📧 Email: leynercrs@gmail.com
+
+---
+
+## 📄 Licencia
+Proyecto formativo creado para el curso de Análisis de Datos. Todos los derechos reservados.
