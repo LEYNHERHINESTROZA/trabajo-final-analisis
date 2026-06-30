@@ -64,3 +64,13 @@ trabajo-final-analisis/
 
 ## 📄 Licencia
 Proyecto formativo creado para el curso de Análisis de Datos. Todos los derechos reservados.
+
+---
+
+## ????? Autor
+
+**Leynher Ferney Hinestroza Mosquera**
+*Desarrollador Fullstack & Analista de Datos*
+- ?? [LinkedIn](https://linkedin.com) (En construcci�n)
+- ?? [GitHub](https://github.com/LEYNHERHINESTROZA)
+- ?? Email: leynercrs@gmail.com
