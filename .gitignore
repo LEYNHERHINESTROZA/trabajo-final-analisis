@@ -1,0 +1,27 @@
+# Dashboard Analítico Inmobiliario
+# =================================
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Archivos de datos JSON generados dinámicamente (Opcional, depende de si quieres ignorar el caché)
+# dashboard_data.json
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+error_log
+*.log

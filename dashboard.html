@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Analítico Inmobiliario</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    
+    <div class="dashboard-container">
+        
+        <!-- Sidebar -->
+        <aside class="sidebar glass-panel">
+            <div class="logo-area">
+                <div class="logo-icon">📊</div>
+                <h2>Data<span class="text-gradient">Vision</span></h2>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active">
+                    <span class="nav-icon">📈</span> Resumen General
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">🏢</span> Departamentos
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">🏘️</span> Tipos de Inmueble
+                </a>
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">💰</span> Estratos
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button id="btn-refresh" class="btn-primary">
+                    <span class="btn-icon">🔄</span> Actualizar Datos
+                </button>
+                <p class="footer-text">Motor Python + PHP</p>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            
+            <header class="top-header">
+                <div>
+                    <h1>Análisis del Mercado Inmobiliario</h1>
+                    <p class="subtitle">Datos procesados desde <code>Data_Caso_Propuesto.csv</code> usando Pandas</p>
+                </div>
+                <div class="user-profile">
+                    <div class="avatar">👨‍💻</div>
+                    <div class="user-info">
+                        <span class="user-name">Leynher</span>
+                        <span class="user-role">Data Analyst</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- KPIs (Tarjetas de resumen) -->
+            <section class="kpi-grid">
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-icon icon-blue">🏠</div>
+                    <div class="kpi-data">
+                        <h3 class="kpi-title">Total Inmuebles</h3>
+                        <p class="kpi-value" id="kpi-total">---</p>
+                    </div>
+                </div>
+
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-icon icon-green">💵</div>
+                    <div class="kpi-data">
+                        <h3 class="kpi-title">Precio Promedio</h3>
+                        <p class="kpi-value" id="kpi-precio">---</p>
+                    </div>
+                </div>
+
+                <div class="kpi-card glass-panel">
+                    <div class="kpi-icon icon-purple">📍</div>
+                    <div class="kpi-data">
+                        <h3 class="kpi-title">Ciudad Principal</h3>
+                        <p class="kpi-value" id="kpi-ciudad">---</p>
+                        <p class="kpi-subtext" id="kpi-ciudad-count">---</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gráficos -->
+            <section class="charts-grid">
+                
+                <!-- Gráfico de Barras: Departamentos -->
+                <div class="chart-card glass-panel col-span-2">
+                    <div class="chart-header">
+                        <h2>Top 10 Departamentos con Mayor Oferta</h2>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="chartDepartamentos"></canvas>
+                    </div>
+                </div>
+
+                <!-- Gráfico de Dona: Tipos de Inmueble -->
+                <div class="chart-card glass-panel">
+                    <div class="chart-header">
+                        <h2>Distribución por Tipo</h2>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="chartTipos"></canvas>
+                    </div>
+                </div>
+
+                <!-- Gráfico Polar / Pie: Estratos -->
+                <div class="chart-card glass-panel col-span-1">
+                    <div class="chart-header">
+                        <h2>Oferta por Estrato</h2>
+                    </div>
+                    <div class="chart-body">
+                        <canvas id="chartEstratos"></canvas>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Script principal -->
+    <script src="dashboard.js"></script>
+</body>
+</html>

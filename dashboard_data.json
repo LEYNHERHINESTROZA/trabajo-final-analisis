@@ -1,0 +1,104 @@
+{
+    "kpis": {
+        "total_inmuebles": 463,
+        "precio_promedio": 667203190.312095,
+        "ciudad_top": "VILLAVICENCIO",
+        "ciudad_top_count": 290
+    },
+    "graficos": {
+        "departamentos": {
+            "labels": [
+                "META",
+                "CUNDINAMARCA",
+                "VALLE DEL CAUCA",
+                "ANTIOQUIA",
+                "CALDAS",
+                "BOLÍVAR",
+                "ATLÁNTICO",
+                "RISARALDA",
+                "CÓRDOBA",
+                "BOYACÁ"
+            ],
+            "values": [
+                292,
+                30,
+                23,
+                22,
+                21,
+                18,
+                17,
+                15,
+                10,
+                6
+            ]
+        },
+        "tipos_inmueble": {
+            "labels": [
+                "LOCAL",
+                "LOTE VIVIENDA",
+                "BODEGA",
+                "OFICINA",
+                "CASA",
+                "LOTE CON CONSTRUCCION",
+                "FINCA",
+                "APARTAMENTO",
+                "EDIFICIO",
+                "LOTE MIXTO",
+                "LOTE",
+                "LOTE INDUSTRIAL",
+                "CLINICA",
+                "GARAJE",
+                "LOTE COMERCIAL",
+                "EDIFICIO OFICINAS",
+                "HOTEL",
+                "DEPOSITO",
+                "LOTE AGRICOLA"
+            ],
+            "values": [
+                305,
+                48,
+                23,
+                17,
+                17,
+                15,
+                10,
+                7,
+                4,
+                3,
+                3,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        "estratos": {
+            "labels": [
+                "COMERCIAL",
+                "RURAL",
+                "UNO",
+                "TRES",
+                "CUATRO",
+                "INDUSTRIAL",
+                "DOS",
+                "SEIS",
+                "CINCO"
+            ],
+            "values": [
+                307,
+                40,
+                21,
+                19,
+                19,
+                16,
+                16,
+                15,
+                10
+            ]
+        }
+    }
+}
